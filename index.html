@@ -1,32 +1,32 @@
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Inconsolata', 'Monaco', monospace;
-	overflow: hidden;
-	margin: 0;
-	color: #a0a2ae;
-	background: #000;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.main-wrap {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-	height: 100vh;
-	background-color: #000;
-
-	background-repeat: no-repeat;
-	background-position: 50% 10em;
-	background-size: 75% auto;
-}
 
 
-/* Buttons */
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|VT323" rel="stylesheet">
+	
+<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="demo-11">
+
+		<div id="connecting-dots" class="connecting-dots">
+				<canvas id="canvas"></canvas>
+		</div>
+
+		<div class="search search--open">
+
+			<div class="terminal">
+				<p class="terminal__line">Welcome:<span class="green"><</span><span class="green" id="ip"></span><span class="green">></span></p>
+				<p class="terminal__line">How's the weather in: <span class="country green"></span>?</p>
+				<p class="terminal__line">Panel interface completed.</p>
+				<p class="terminal__line">Navigation portals fetched:</p>
+				<p class="terminal__line"><a href="#">#home</a></p>
+				<p class="terminal__line"><a href="#">#blog</a></p>
+				<p class="terminal__line"><a href="#">#codelab</a></p>
+				<p class="terminal__line"><a href="#">#contact</a></p>
+				<p class="terminal__line"><a href="#">#gethacked</a></p>
+				<p class="terminal__line"><a href="#">#aboutme</a></p>
+				<p class="terminal__line"><a class="out" href="#">#_instagram</a></p>
+				<p class="terminal__line">Inject <a href="#">Help.md</a> to C:\Users\<span class="console"></span></p>
+				<p class="terminal__line">\\<span class="console"></span>\<a href="#">C:\Users\Public\Help.md</a> > In order to navigate click on the links above or type the section you would like to access e.g: "home"</p>
+			</div>
+			<form class="search__form" action="">
+					<input class="search__input" id="search__input" name="search" placeholder="Command Line" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" ></input>
+			</form>
