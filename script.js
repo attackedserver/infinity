@@ -300,7 +300,7 @@ navigationLink.click(function(e){
     createHome();
 
 	  } else if ( $( "input" ).val() === "instagram" ) {
-				window.open('https://t.me/attackedserver');
+				window.open('http://instagram.com/arcticben.co.uk');
   		} else if ($( "input" ).val() === "ipconfig") {
 
         var binder = $('input').val();
