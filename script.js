@@ -299,7 +299,7 @@ navigationLink.click(function(e){
 
     createHome();
 
-	  } else if ( $( "input" ).val() === "telegram" ) {
+	  } else if ( $( "input" ).val() === "instagram" ) {
 				window.open('https://t.me/attackedserver');
   		} else if ($( "input" ).val() === "ipconfig") {
 
